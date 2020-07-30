@@ -44,6 +44,10 @@ infinite_fib(10)
 一大段输出之后就会出现异常： RecursionError: maximum recursion depth exceeded。
 后边会讲到递归，递归是初学者比较难理解的概念，在树的遍历等地方还会看到它。
 
+Stack 队列操作                          | 平均时间复杂度  |
+---------------------------------------|----------------|
+Stack.push(value)                      | O(1)           |
+Stack.pop()                            | O(1)           |
 
 # 数据结构头脑风暴法
 

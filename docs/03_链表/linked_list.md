@@ -42,8 +42,10 @@ class LinkedList(object):
 ------------------------------|----------------|
 linked_list.append(value)     | O(1)           |
 linked_list.appendleft(value) | O(1)           |
+linked_list.popleft(value)    | O(1)           |
 linked_list.find(value)       | O(n)           |
 linked_list.remove(value)     | O(n)           |
+linked_list.clear()           | O(n)           |
 
 
 # 双链表
@@ -77,7 +79,7 @@ class Node(object):
 ---------------------------------------|----------------|
 cdll.append(value)                     | O(1)           |
 cdll.appendleft(value)                 | O(1)           |
-cdll.remove(node)，注意这里参数是 node | O(1)           |
+cdll.remove(node), 注意这里参数是 node  | O(1)           |
 cdll.headnode()                        | O(1)           |
 cdll.tailnode()                        | O(1)           |
 

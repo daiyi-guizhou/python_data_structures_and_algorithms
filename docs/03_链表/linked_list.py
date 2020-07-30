@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-
+## append appendleft remove  find __iter__ popleft, clear reverse
 class Node(object):
     def __init__(self, value=None, next=None):   # 这里我们 root 节点默认都是 None，所以都给了默认值
         self.value = value
