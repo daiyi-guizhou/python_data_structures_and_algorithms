@@ -1,3 +1,16 @@
+
+
+
+|操作    |	  操作说明 |	时间复杂度|
+|---|---|---|
+|copy	        | 复制	    | O(n) |
+|get(value)	    | 获取	    | O(1) |
+|set(value)	    | 修改	    | O(1) |
+|delete(value)	| 删除	    | O(1) |
+|search(in)	    | 字典搜索	| O(1) |
+|iterration  	| 字典迭代	| O(n) |
+
+
 # 字典 dict
 
 上一章我们介绍了哈希表，其实 python 内置的 dict 就是用哈希表实现的，所以这一章实现 dict 就非常简单了。
